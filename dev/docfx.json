@@ -1,0 +1,42 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "dev/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "dev/**",
+          "**/includes/**"
+        ],
+        "src": null,
+        "dest": null
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "open_to_public_contributors": true,
+      "uhfHeaderId": "DEV_Homeheader",
+      "open_to_public_contributors": false
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "dev"
+  }
+}
